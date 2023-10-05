@@ -228,6 +228,7 @@
     padding-right: 2rem;
     font-style: italic;
     color: #fc1b1b;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
     background-image: url("./images/Sarkareth_AotC.png");
     background-size: cover;
   }

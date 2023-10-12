@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./resources/styles.css">
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -53,7 +56,7 @@
     <div id="intro-section">
       <div id="intro-blurb">
         <div class="text-box">
-          <p>A band of chaotic idiots in a quiet corner of the WoW universe.
+          <p>A crew of chaotic clowns in a quiet corner of the WoW universe.
           </p>
         </div>
         <!-- <img src="./resources/images/Mountain View.jpg" /> -->
@@ -64,31 +67,70 @@
       </div> -->
     </div>
 
-    <!-- Sign Up Section -->
-    <!--
-    <div id="sign-up-section" class="banner">
-      <div id="sign-up-cta">
-        <div class="content center">
-          <div class="email">
-            <span>
-              Email us to request a demo, schedule an appointment, or get a quote!
-            </span>
-            <div class="button">Get in touch!</div>
-          </div>
+    <!-- Raid Victories Section -->
+    <div id="victory-section">
+      <div class="content center">
+        <h2>Ahead of the Curve Successes</h2>
+        <div class="aotc-columns">
+          <img src="./resources/images/Sarkareth_AotC_Adjusted.png" />
+        </div>
+        <div class="aotc-columns">
+          <img src="./resources/images/H Raz Kill Adjusted.png" />
+        </div>
+        <div class="aotc-columns">
+          <img src="./resources/images/Sylvanas Defeated Adjusted.png" />
+        </div>
+        <div class="aotc-columns">
+          <img src="./resources/images/G'huun Defeated Adjusted.png" />
+        </div>
+        <div class="aotc-bottom-column">
+          <img src="./resources/images/Kil'Jaeden Defeated Adjusted.png" />
         </div>
       </div>
     </div>
-  -->
-    <!-- Samples Section -->
-    <!--
-    <div id="samples-section">
+
+    <!-- Rules Section -->
+
+    <div id="rules-section">
       <div class="content center">
-        <h2>Some samples of our work!</h2>
-        <h3>A glimpse into the kind of views and quality you can find by working with our brilliant team.</h3>
+        <h2>General Rules</h2>
+        <h3 id="general-rules">Code of conduct to follow in guild chat & any guild activities</h3>
+        <ol>
+          <li>Toxicity is not permitted. What defines toxicity is up to the leadership, 
+            but you can generally expect this to include name-calling, excessive swearing, 
+            excessive aggression and any kind of prejudiced speech or behavior.</li>
+          <li>Politics and religion are off-limits in public forums such as guild chat, 
+            raid chat or raid Discord channels. You’re more than welcome to discuss these 
+            things at length in private with people who want to discuss them with you, 
+            but leave them out of the general lanes of communication.</li>
+          <li>Keep the guild bank tidy. This means putting things in the tabs that are 
+            appropriate for them, and not putting junk in the guild bank. If you’re not 
+            sure if something belongs or where it belongs, ask an officer for help.</li>
+        </ol>
+
+        <h2>Raid Rules</h2>
+        <h3 id="raid-rules">Loot & character rules for raid</h3>
+        <ol>
+          <li>Loot priority is largely left to the in-game system, where Need > Greed.
+            Officers will make rulings for certain edge cases when the system's behavior
+            is unsatisfactory or if a particular item is especially strong for a certain
+            class, but do not expect this treatment routinely, if ever. The goal is to 
+            finish the raid. There will always be more opportunities for loot.
+          </li>
+          <li>Alts are not permitted for content that is not on farm.</li>
+          <li>One character swap is allowed per person per season, given that the new character
+            is of the same role as the player's first and within 5 item levels of the original
+            character. Exceptions to the role rule will be permitted if two players want to
+            swap roles and both meet the item level rule.
+          </li>
+          <li>
+            All conduct rules from the above section apply in raid as well.
+          </li>
+        </ol>
       </div>
-    -->
-      <!-- <div class="slider-container"> -->
-        <!-- <span id="slider-image-1"></span>
+
+      <!-- <div class="slider-container">
+        <span id="slider-image-1"></span>
         <span id="slider-image-2"></span>
         <span id="slider-image-3"></span>
         <span id="slider-image-4"></span>
@@ -97,8 +139,8 @@
           <img src="./resources/images/Ocean View.jpg" class="slider-image" />
           <img src="./resources/images/Peninsula.jpg" class="slider-image" />
           <img src="./resources/images/Shoreline Rock Feature.jpg" class="slider-image" />
-        </div>
-        <div class="button-container">
+        </div> -->
+        <!-- <div class="button-container">
           <a href="#slider-image-1" class="slider-button"></a>
           <a href="#slider-image-2" class="slider-button"></a>
           <a href="#slider-image-3" class="slider-button"></a>
@@ -109,14 +151,14 @@
             src="./resources/images/Aerial Bridge View.jpg" 
             onclick="enlargeBridge()"
           />
-        </div>
-        <div class="image-container">
+        </div> -->
+        <!-- <div class="image-container">
           <img 
             src="./resources/images/Ocean View.jpg" 
             onclick="enlargeImg(oceanImg)"
           />
-        </div>
-        <div class="image-container">
+        </div> -->
+        <!-- <div class="image-container">
           <img 
             src="./resources/images/Peninsula.jpg" 
             id="peninsulaImg"
@@ -129,12 +171,11 @@
           function enlargeBridge() {
 
           }
-        </script>
-      </div>
-      <div id="fullPage" class="bridgeImg" onclick="this.style.display='none';">
-        <img src="./resources/images/Aerial Bridge View.jpg" />
-      </div>
-    </div> -->
+        </script> -->
+        <!-- <div id="fullPage" class="bridgeImg" onclick="this.style.display='none';">
+          <img src="./resources/images/Aerial Bridge View.jpg" />
+        </div> -->
+    <!-- </div> -->
 
     <!-- Footer -->
     <footer>

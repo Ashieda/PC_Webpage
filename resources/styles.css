@@ -76,19 +76,20 @@
     display: flex;
     align-items: center;
     height: 85px;
-    padding: 0 1.875rem;
   }
   
   header .logo {
     flex: 1;
     text-decoration: none;
-    color: #860000;
-    font-size: 1.5rem;
-    font-family: "Roboto Mono";
+    color: #5e0000;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-family: "Young Serif";
+    padding-left: 0.25em;
   }
   
   header .guild_logo {
-    max-width: 6em;
+    max-width: 5.5em;
   }
 
   header nav ul {
@@ -346,43 +347,92 @@
     }
   }
   
-  /* Features Section */
-  
-  #features-section {
+  /* Victory Section */
+  #victory-section {
+    padding: 2em 0 0 0;
+    background-color: #4a4a4a;
+    /* display: flex;
+    justify-content: center; */
+  }
+
+  .aotc-columns {
+    width: 50%;
+    float: left;
+  }
+
+  .aotc-columns img {
+    max-width: 90%;
+    margin: 1em auto;
+  }
+
+  .aotc-bottom-column {
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .aotc-bottom-column img {
+    max-width: 90%;
+    margin: 1em auto;
+  }
+
+  #victory-section .content h2 {
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(105, 231, 105);
+    margin: 0 auto .5em auto;
+  }
+  /* #features-section {
     display: flex;
     justify-content: space-between;
     padding: 4rem 5%;
     background-color: #f3f3f3;
     padding-bottom: 2.875rem;
-  }
+  } */
   
-  /* Samples Section */
+  /* Rules Section */
   
-  #samples-section {
-    padding: 4rem 0;
+  #rules-section {
+    padding: 2em 0;
     background-color: #4a4a4a;
     /* display: flex;
     justify-content: center; */
   }
+
+  #general-rules {
+    color: rgb(0, 162, 211);
+  }
+
+  #raid-rules {
+    color: rgb(231, 105, 105);
+  }
   
-  #samples-section .content {
-    padding: 0 .625rem;
-    margin-bottom: 2rem;
+  #rules-section .content {
+    padding: 0 .625em;
+    margin-bottom: 2em;
     /* flex-basis: 100%; */
   }
   
-  #samples-section .content h2 {
-    font-size: 2.25rem;
+  #rules-section .content h2 {
+    font-size: 2.75em;
     font-weight: bold;
     color: white;
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
   }
   
-  #samples-section .content h3 {
-    font-size: 1rem;
+  #rules-section .content h3 {
+    font-size: 1.5em;
     line-height: 1.4;
-    font-weight: 300;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: .3em;
+  }
+
+  #rules-section li{
+    text-align: left;
     color: white;
+    margin-bottom: .4em;
   }
   
   .slider-container {
@@ -471,7 +521,7 @@
   }
   
   @media only screen and (max-width: 480px) {
-    #samples-section .extra {
+    #rules-section .extra {
       display: none;
     }
   }
